@@ -1,5 +1,7 @@
 import { useCallback, useState } from "react";
-import { AddToCartButton, Colors, Color, colorways } from "@replayio/overboard";
+import { AddToCartButton } from "../components/AddToCartButton";
+import { Colors, Color } from "../components/Colors";
+import { colorways } from "../util/colorways";
 
 import { Column } from "./Column";
 

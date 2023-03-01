@@ -1,4 +1,5 @@
-import { Hoverboard, Logo } from "@replayio/overboard";
+import { Hoverboard } from "../components/Hoverboard";
+import { Logo } from "../components/Logo";
 
 export default function Docs() {
   return (

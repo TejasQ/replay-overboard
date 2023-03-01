@@ -1,12 +1,9 @@
 {
   "name": "overboard",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
+    "build": "next build",
+    "dev": "next dev",
     "format": "prettier '**/*' --write --ignore-unknown"
   },
   "devDependencies": {
@@ -19,9 +16,17 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "next": "^12.2.4",
+    "next-transpile-modules": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "turbo": "1.4.2",
-    "typescript": "^4.7.4"
+    "use-frame": "^0.1.1",
+    "webpack-react-component-name": "^5.0.4",
+    "@popmotion/popcorn": "^0.4.4",
+    "lottie-web": "^5.9.6",
+    "motion": "^10.13.1"
   }
 }
